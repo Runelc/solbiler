@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- lang = language = sprog -->
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="kunde.css">
+  <meta name="author" content="Rune">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" type="images/bil.png" href="images/bil.png" />
+  <title> Kvittering </title>
+</head>
+
+<header>
+  <a id="logo" href="index.html"><img src="images/logoIMG.png" alt="Logo" height="30px" width="400px"></a>
+  <div class="logind">
+    <a href="#">
+      <h4>log ind</h4>
+    </a>
+    <img class="longind_photo" src="images/logind.png" alt="log ind ikon" width="22" height="22">
+  </div>
+</header>
+
+<img class="big_photo" src="images/bigphoto.png" alt="Bil billede">
+
+<body class="wrapper">
+  <div class="hovedindhold">
+    <section class="udstyrssektion">
+      <h1 class="overskrift">Vi har registreret din booking med følgende oplysninger</h1>
+      <div class="formular" id="stamopl">
+        <button type="button" id="udskrivKnap" class="videreknap">Udskriv</button>
+      </div>
+    </section>
+
+    <aside id="lejeoplysninger" class="lejeoplysninger">
+      <h2>Lejeoplysninger</h2>
+      <h3>Antal Dage</h3>
+      <div id="afhent_dag" class="afhent_dag"><span>Afhentningsdato:</span></div>
+      <div id="aflevering_dag" class="aflevering_dag"><span>Afleveringsdato:</span></div>
+      <div id="antal_dage" class="antal_dage"><span>Antal dage:</span></div>
+      <br>
+      <h3>Udstyrs liste</h3>
+      <ul id="udstyr_liste" class="udstyr_liste"></ul>
+      <br>
+      <div id="totalindhold" class="totalindhold"><span>ALT INKLUSIV: </span></div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <p class="addresse"><strong> Addresse </strong><br> Nørreále 18 <br> 8750 Gennerup </P>
+    <p class="kontakt"><strong> Kontakt </strong><br> Tlf. +45 12345678 <br> E-mail. solbiler@mail.com</p>
+
+    <div class="icons">
+      <a href="https://da-dk.facebook.com"><img class="socialemedier" src="images/facebook.jpg" alt="icon"></a>
+      <a href="https://www.instagram.com"><img class="socialemedier" src="images/instagram.jpg" alt="icon"></a>
+      <a href="https://twitter.com"><img class="socialemedier" src="images/twitter.jpg" alt="icon"></a>
+    </div>
+  </footer>
+  <script src="kvittering.js"></script>
+</body>
+
+</html>

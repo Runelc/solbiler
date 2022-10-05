@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  margin-left: 13vw;
+  margin-right: 13vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  float: left;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 0.8vw;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.logind {
+  float: right;
+  margin: 1.2vw 0px 0.2vw 2vw;
+  display: flex;
+}
+
+.logind a {
+  text-decoration: none;
+  color: black;
+}
+
+.longind_photo {
+  margin-left: 7px;
+}
+
+/* Om os side herfra */
+/* Styling af paralax på øverste billede */
+.parallax {
+  background-image: url("images/ombillede1.png");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling af omos & kolonner */
+.omkring {
+  padding: 4em 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+}
+
+.col+.col {
+  margin-left: 1.5em;
+}
+
+/* Styling af text og billeder som slide-in */
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.effekter {
+  background: #f4f4f4;
+  padding: 4em 0;
+  display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em,
+      1fr);
+}
+
+.fra_venstre {
+  grid-column: 2 / 3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.fra_højre {
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.fra_venstre,
+.fra_højre {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.fra_venstre.appear,
+.fra_højre.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* Styling af slide show */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.slide_overskrift {
+  text-align: center;
+}
+
+/* Slides */
+.citater {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Næste og tilbage knapper */
+.tilbage,
+.naeste {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position for næste knap til højre  */
+.naeste {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Hover der tilføjer sort baggrund  */
+.tilbage:hover,
+.naeste:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* dot/bullet */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* dots/bullets */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* baggrund på valgte dot/side  */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Font på citater */
+q {
+  font-style: italic;
+}
+
+/* Farve på forfatter (den som har sagt citatet) */
+.forfatter {
+  color: orangered;
+}
+
+
+/* Footer herfra til .icons */
+.footer {
+
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.addresse {
+  margin-left: 1.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.kontakt {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.icons .socialemedier {
+  width: 40px;
+  height: auto;
+  margin: 3px;
+}
+
+.icons {
+  margin-right: 1.5vw;
+}

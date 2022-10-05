@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  margin-left: 13vw;
+  margin-right: 13vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  float: left;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 0.8vw;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.logind {
+  float: right;
+  margin: 1.2vw 0px 0.2vw 0vw;
+  display: flex;
+}
+
+.log_ind_skrift {
+  margin-left: 1.5vw;
+}
+
+.logind a {
+  text-decoration: none;
+  color: black;
+}
+
+.longind_photo {
+  margin-left: 7px;
+}
+
+.om_os_nav {
+
+  text-decoration: none;
+  color: black;
+}
+
+.parent {
+  position: relative;
+  background-image: url("images/bil5.png");
+  width: 100%;
+  background-position: 50% 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+
+.formular {
+  background-color: #dc7224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 40px;
+  margin-left: 2vw;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+#overskrift {
+  margin-bottom: 0.5vw;
+}
+
+#personer,
+#kufferter,
+#afhent,
+#aflever {
+  width: 150px;
+  padding: 3px 0px;
+  padding-left: 7px;
+}
+
+label {
+  display: block;
+}
+
+input,
+label {
+  margin: .4rem 0;
+  border: none;
+  border-radius: 3000px;
+  padding: 0.1px 5px 0.1 5px;
+}
+
+.Top_søg_knap {
+  display: block;
+  margin-top: 1.2vw;
+  border: none;
+  background-color: white;
+  padding: 10px 52px;
+  border-radius: 3000px;
+  cursor: pointer;
+  width: 150px !important;
+  transition: all 0.3s ease 0s;
+}
+
+.Top_søg_knap:hover {
+  background-color: #f8a971;
+}
+
+select {
+  width: 129px;
+  border: none;
+  border-radius: 3000px;
+  padding: 1px 5px;
+}
+
+.bil {
+  border: 2px solid #4d4b48;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.bildetaljer {
+  min-width: 22ch;
+}
+
+.book_nu_knap {
+  margin-top: 0px;
+  border: none;
+  background-color: #f7802c;
+  padding: 10px 20px;
+  border-radius: 3000px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 1px;
+  transition: all 0.3s ease 0s;
+}
+
+.book_nu_knap:hover {
+  background-color: #f8a971;
+}
+
+.lejeudgift {
+  margin-bottom: 15px;
+}
+
+#biler {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+
+.billede_af_biler {
+  width: 200px;
+  height: auto;
+}
+
+/* Footer herfra til .icons */
+.footer {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-top: 17%;
+}
+
+.addresse {
+  margin-left: 1.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.kontakt {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.icons .socialemedier {
+  width: 40px;
+  height: auto;
+  margin: 3px;
+}
+
+.icons {
+  margin-right: 1.5vw;
+}

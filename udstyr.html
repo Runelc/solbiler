@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="udstyr.css">
+  <meta name="author" content="Rune">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" type="images/bil.png" href="images/bil.png" />
+  <title>Udstyr</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <a id="logo" href="index.html"><img src="images/logoIMG.png" alt="Logo" height="30px" width="400px"></a>
+      <div class="logind">
+        <a href="#">
+          <h4>log ind</h4>
+        </a>
+        <img class="longind_photo" src="images/logind.png" alt="log ind ikon" width="22" height="22">
+      </div>
+    </header>
+
+    <img class="big_photo" src="images/bigphoto.png" alt="Bil billede">
+
+
+
+    <h1 class="godt_valg">Godt valg!</h1>
+
+    <div class="container">
+      <div class="billede_af_bil">
+        <img id="bil_billede">
+      </div>
+
+
+      <form class="form">
+        <h3>Vælg ekstraudstyr (ekskl. moms)</h3> <br>
+        <input type="checkbox" class="iliste" id="chauffoer" name="Ekstra chauffør kr. 199,-" value="199">
+        <label for="chauffoer"> Ekstra chauffør kr. 199,-</label><br>
+
+        <input type="checkbox" class="iliste" id="barnesaede_1_4_år" name="Barnesæde (1-4 år) kr. 140,-" value="140">
+        <label for="barnesaede_1_4_år"> Barnesæde (1-4 år) kr. 140,-</label><br><br>
+
+        <input type="checkbox" class="iliste" id="barnesaede_5_12_år" name="Barnesæde (5-12 år) kr. 155,-" value="155">
+        <label for="barnesaede_5_12_år"> Barnesæde (5-12 år) kr. 155,-</label><br>
+
+        <input type="checkbox" class="iliste" id="vejhjaelp" name="Vejhjælp+ kr. 120,-" value="120">
+        <label for="vejhjaelp"> Vejhjælp+ kr. 120,-</label><br><br>
+
+        <input type="checkbox" class="iliste" id="lift_net" name="Lift-net (0-1 år) kr. 100,-" value="100">
+        <label for="lift_net"> Lift-net (0-1 år) kr. 100,-</label><br><br>
+
+        <input type="checkbox" class="iliste" id="gps_navi" name="GPS navigation kr. 250,-" value="250">
+        <label for="gps_navi"> GPS navigation kr. 250,-</label><br><br>
+
+        <input type="checkbox" class="iliste" id="snekaeder" name="Snekæder kr. 188,-" value="188">
+        <label for="snekaeder"> Snekæder kr. 188,-</label><br><br>
+      </form>
+
+
+      <div id="bestilling">
+        <h3>Din bestilling</h3><br>
+        <p id="brand" class="bestilling-info"><span> Bil:</span></p>
+        <p id="kategori" class="bestilling-info"><span>Kategori:</span></p>
+        <p id="antal_personer" class="bestilling-info"><span>Antal Personer:</span></p>
+        <p id="antal_kufferter" class="bestilling-info"><span>Antal kufferter:</span></p>
+        <p id="afhentning" class="bestilling-info"><span>Afhentning:</span></p>
+        <p id="aflevering" class="bestilling-info"><span>Aflevering:</span></p>
+        <p id="antal_leje_dage" class="bestilling-info"><span>Antal leje dage:</span></p>
+        <p id="pris_forsikring" class="bestilling-info"><span>Pris + forsikring:</span></p>
+        <p id="leje_pris_pr_dag" class="bestilling-info"><span>Leje pris pr. dag: </span>100,-</p>
+        <p id="klassetillæg" class="bestilling-info"><span>Klassetillæg:</span></p>
+        <p id="ekstra_udstyr" class="bestilling-info"><span>Ekstra udstyr:</span></p>
+        <div id="udstyr-liste"></div><br>
+        <p id="DKK" class="bestilling-info"><span>DKK:</span></p>
+      </div>
+    </div>
+
+
+    <a id="tilbage_knap" href="index.html"><button>&#11164; Tilbage</button></a>
+    <a id="videre_knap" href="kunde.html"><button>Næste &#11166;</button></a>
+
+    <footer class="footer">
+      <p class="addresse"><strong> Addresse </strong><br> Nørreále 18 <br> 8750 Gennerup </P>
+      <p class="kontakt"><strong> Kontakt </strong><br> Tlf. +45 12345678 <br> E-mail. solbiler@mail.com</p>
+
+      <div class="icons">
+        <a href="https://da-dk.facebook.com"><img class="socialemedier" src="images/facebook.jpg" alt="icon"></a>
+        <a href="https://www.instagram.com"><img class="socialemedier" src="images/instagram.jpg" alt="icon"></a>
+        <a href="https://twitter.com"><img class="socialemedier" src="images/twitter.jpg" alt="icon"></a>
+      </div>
+    </footer>
+
+    <script src="udstyr.js"></script>
+  </main>
+</body>
+
+</html>

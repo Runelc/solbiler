@@ -1,0 +1,34 @@
+[{
+      "bilmaerke": "MINI Cooper",
+      "billede": "images/budget.png",
+      "billedtekst": "billede af udlejningsbil her",
+      "kategori": "Budget",
+      "personer": 4,
+      "kufferter": 0,
+      "lejepris": 495,
+      "tillaeg": 0,
+      "id": 0
+   },
+   {
+      "bilmaerke": "Peugeot 108",
+      "billede": "images/mellemklasse.png",
+      "billedtekst": "billede af udlejningsbil her",
+      "kategori": "Mellemklasse",
+      "personer": 5,
+      "kufferter": 3,
+      "lejepris": 495,
+      "tillaeg": 60,
+      "id": 1
+   },
+   {
+      "bilmaerke": "Mercedes-Benz",
+      "billede": "images/minivan.png",
+      "billedtekst": "billede af udlejningsbil her",
+      "kategori": "Minivan",
+      "personer": 7,
+      "kufferter": 4,
+      "lejepris": 495,
+      "tillaeg": 105,
+      "id": 2
+   }
+]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- lang = language = sprog -->
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="omos.css">
+  <meta name="author" content="Rune">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" type="images/bil.png" href="images/bil.png" />
+  <title> Om os </title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <a id="logo" href="index.html"><img src="images/logoIMG.png" alt="Logo" height="30px" width="400px"></a>
+      <div class="logind">
+        <a href="#">
+          <h4>log ind</h4>
+        </a>
+        <img class="longind_photo" src="images/logind.png" alt="log ind ikon" width="22" height="22">
+      </div>
+    </header>
+
+
+
+    <!-- Styling af parallax på øverste billede-->
+    <div class="parallax">
+      <div class="overlay">
+
+      </div>
+    </div>
+
+
+    <div style="height:1000px;">
+      <!-- Beskrivelse af solbiler samt 3 kolonner -->
+      <section class="intruduktion"></section>
+      <div class="omkring">
+        <h2>Om os</h2>
+        <p>Hos Solbiler sikrer vi jer en nem og fleksibel billeje, uden nogle skjulte omkostninger.
+          Når du lejer en bil via vores hjemmeside, støtter du samtidig en af vores lokale og professionelle
+          autoforhandlere og autoværksteder, som har mange års erfaring inden for autobranchen. Disse
+          autoforhandlere og autoværksteder drives af erfarne fagfolk, der leverer kvalitetsbiler til en lav
+          lejepris og på gode betingelser.</p> <br> <br>
+        <div class="columns">
+          <div class="col fade-in">
+            <h3>Dedikeret team</h3>
+            <p>
+              Vi er et team på omkring 20 passionerede medarbejdere, som er klar til hjælpe. Vi holder åbent 24 timer i
+              døgnet 365 dage om året
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>Tilfredse kunder</h3>
+            <p>
+              Vi vil gå langt for vores kundeservice. 91% af vores kunder, har fortalt venner og familie om os.
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>Drevet af Trends</h3>
+            <p>
+              Vi er en del af fremtidens grønne løsninger, og vores vækst er drevet af de 3 trends - urbanisering,
+              bæredygtighed og deleøkonomi
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide ind effekt på billeder samt text  -->
+      <div class="text_&_billeder">
+        <div class="effekter">
+          <img src="images/sekrataer.png" alt="Sekratær" class="slide-in fra_venstre" height="401" width="401" />
+          <p class="slide-in fra_højre">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="effekter">
+          <p class="slide-in fra_venstre">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img src="images/bestyrelse.png" alt="Bestyrelse" class="slide-in fra_højre" />
+        </div>
+        <div class="effekter">
+          <img src="images/køb.png" alt="Lejning af bil" class="slide-in fra_venstre" />
+          <p class="slide-in fra_højre">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+      </div>
+
+      <!-- Slideshow med citater fra kunder -->
+      <div class="slideshow-container">
+        <h3 class="slide_overskrift">Hvad siger vores kunder</h3>
+
+        <div class="citater">
+          <q>Super fin første oplevelse med Solbiler 🚘 Tak for super fleksibilitet og en fornem bil.</q>
+          <p class="forfatter">- Katrine Hansen</p>
+        </div>
+
+        <div class="citater">
+          <q>Stor og flot service, professionelt personale. Rigtig god varevogn, med overraskende lavt brandstorfs
+            forbrug.</q>
+          <p class="forfatter">- Morten Pedersen</p>
+        </div>
+
+        <div class="citater">
+          <q>Det nemt, det billigt, det virker altid. Ja tak!</q>
+          <p class="forfatter">- Thomas Kristensen</p>
+        </div>
+
+        <a class="tilbage" onclick="plusSlides(-1)">❮</a>
+        <a class="naeste" onclick="plusSlides(1)">❯</a>
+
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <footer class="footer">
+        <p class="addresse"><strong> Addresse </strong><br> Nørreále 18 <br> 8750 Gennerup </P>
+        <p class="kontakt"><strong> Kontakt </strong><br> Tlf. +45 12345678 <br> E-mail. solbiler@mail.com</p>
+
+        <div class="icons">
+          <a href="https://da-dk.facebook.com"><img class="socialemedier" src="images/facebook.jpg" alt="icon"></a>
+          <a href="https://www.instagram.com"><img class="socialemedier" src="images/instagram.jpg" alt="icon"></a>
+          <a href="https://twitter.com"><img class="socialemedier" src="images/twitter.jpg" alt="icon"></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="omos.js"></script>
+  </main>
+</body>
+
+</html>

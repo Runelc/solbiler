@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- lang = language = sprog -->
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="author" content="Rune">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" type="images/bil.png" href="images/bil.png" />
+  <title> Solbiler </title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <a id="logo" href="index.html"><img src="images/logoIMG.png" alt="Logo" height="30px" width="400px"></a>
+
+      <div class="logind">
+        <a href="om.html" class="om_os_nav">
+          <h4>Om os</h4>
+        </a>
+        <a href="#">
+          <h4 class="log_ind_skrift">log ind</h4>
+        </a>
+        <img class="longind_photo" src="images/logind.png" alt="log ind ikon" width="22" height="22">
+      </div>
+    </header>
+
+    <!-- Styling af billede og dato i toppen  -->
+    <div class="parent">
+      <div class="formular">
+
+        <h3 id="overskrift">Find bilen som passer til dig</h3>
+        <form id="formular">
+          <label for="start">Afhentning:</label>
+          <input id="afhent" type="date" name="trip-start">
+
+          <label for="start">Aflevering:</label>
+          <input id="aflever" type="date" name="trip-start">
+
+
+          <label for="antal_personer">Antal personer:</label>
+          <select name="antal_personer" id="personer">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+
+          <label for="antal_kufferter">Antal kufferter:</label>
+          <select name="antal_kufferter" id="kufferter">
+            <option value="0">0 - kun en taske </option>
+            <option value="1">1 kuffert</option>
+            <option value="2">2 kufferter</option>
+            <option value="3">3 kufferter</option>
+            <option value="4">4 kufferter</option>
+          </select>
+          <button class="Top_søg_knap" type="submit"><strong>Søg</strong></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Styling af bil-boxe med js  -->
+    <main id="biler">
+      <template id="skabelon">
+        <div class="bil">
+          <img class="billede_af_biler">
+          <div class="bilMM"></div>
+          <div class="bildetaljer">
+            <div class="kategori">Kategori: </div>
+            <div class="antalpersoner">Personer: </div>
+            <div class="antalkufferter">Kufferter: </div>
+          </div>
+          <div class="prisogbook">
+            <div class="lejeudgift">DKK </div>
+            <button class="book_nu_knap">Book nu</button>
+          </div>
+        </div>
+      </template>
+
+
+    </main>
+    <footer class="footer">
+      <p class="addresse"><strong> Addresse </strong><br> Nørreále 18 <br> 8750 Gennerup </P>
+      <p class="kontakt"><strong> Kontakt </strong><br> Tlf. +45 12345678 <br> E-mail. solbiler@mail.com</p>
+
+      <div class="icons">
+        <a href="https://da-dk.facebook.com"><img class="socialemedier" src="images/facebook.jpg" alt="icon"></a>
+        <a href="https://www.instagram.com"><img class="socialemedier" src="images/instagram.jpg" alt="icon"></a>
+        <a href="https://twitter.com"><img class="socialemedier" src="images/twitter.jpg" alt="icon"></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

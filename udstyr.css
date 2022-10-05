@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  margin-left: 13vw;
+  margin-right: 13vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  float: left;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 0.8vw;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.logind {
+  float: right;
+  margin: 1.2vw 0px 0.2vw 2vw;
+  display: flex;
+}
+
+.logind a {
+  text-decoration: none;
+  color: black;
+}
+
+.longind_photo {
+  margin-left: 7px;
+}
+
+.big_photo {
+  width: 100%;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 0%;
+}
+
+.godt_valg {
+  margin-top: 7px;
+}
+
+.container,
+.billede_af_bil,
+.form,
+#bestilling {
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+  margin: 5px;
+
+}
+
+#bestilling {
+  background-color: #ffa65f;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.form {
+  background-color: #ffa65f;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+#bestilling,
+.form {
+  min-height: 370px;
+  padding: 1% 30px;
+}
+
+.billede_af_bil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+
+#bil_billede {
+  width: 270px;
+  height: 200px;
+}
+
+#DKK {
+  text-align: center;
+  font-size: 21px;
+}
+
+
+button {
+  padding: 12px 35px;
+  background-color: #bf5c15;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  margin-top: 2vw;
+}
+
+button:hover {
+  background-color: #f8a971;
+}
+
+#videre_knap {
+  float: right;
+}
+
+#tilbage_knap {
+  float: left;
+}
+
+span {
+  font-weight: bold !important;
+}
+
+/* Footer herfra til .icons */
+.footer {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-top: 13%;
+}
+
+.addresse {
+  margin-left: 1.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.kontakt {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.icons .socialemedier {
+  width: 40px;
+  height: auto;
+  margin: 3px;
+}
+
+.icons {
+  margin-right: 1.5vw;
+}
